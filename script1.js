@@ -1,5 +1,3 @@
-var T = prompt("veuillez ecrire la temperature");
-(T>37)? alert("accès au cheking approfondi"): alert("bonne santé");
 
 function reste(nombre);
     nombre = 8754
