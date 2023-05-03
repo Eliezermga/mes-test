@@ -13,19 +13,30 @@ aire = L*l;
 console.log(aire)
 
 var b = "unh";
-    console.log(`ici c'est ${b}`);*/
+    console.log(`ici c'est ${b}`);
 
 
  entrez = prompt("entrer le solde de votre solde");
  retrait = prompt("montant à retirer");
  solde = entrez - retrait;
- alert ("vous avez retirez "+retrait  +" votre solde est de :" +solde);
+ alert ("vous avez retirez "+retrait  +" votre solde est de :" +solde);*/
 
- switch (key) {
-    case value:
-        
-        break;
- 
-    default:
-        break;
- }
+
+v = prompt("Entrez  la couleur");
+    if(v == "rouge"){
+        alert("casse#1");
+    }
+    else{
+        if (v== "vert") {
+            alert("case#2")
+        }
+        else{
+            if(v== "noir"){
+            alert("case#3")
+            }
+            else{
+                alert("inconnu")
+            }
+        }
+       
+}
