@@ -66,7 +66,7 @@ while(m < 10000){
     m= m*10
     alert("le resulat est : " +m)
     break
-}*/
+}
 
 var m= prompt("entrez la valeur");
 
@@ -75,4 +75,10 @@ for (var i =0; i < 10000; i*10) {
    break 
    alert(m)
  m += i
-}
+}*/
+
+var courses = Array("HTML", "CSS", "JS");
+var course = courses[0];
+courses[1] = "C++"
+console.log(courses[1])
+document.write(courses[1])
