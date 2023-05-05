@@ -19,7 +19,7 @@ var b = "unh";
  entrez = prompt("entrer le solde de votre solde");
  retrait = prompt("montant à retirer");
  solde = entrez - retrait;
- alert ("vous avez retirez "+retrait  +" votre solde est de :" +solde);*/
+ alert ("vous avez retirez "+retrait  +" votre solde est de :" +solde);
 
 
 v = prompt("Entrez  la couleur");
@@ -39,4 +39,40 @@ v = prompt("Entrez  la couleur");
             }
         }
        
+}
+    a = prompt("valeur voulue")
+    n = a+1
+    while (a<n) {
+     alert("ça marche")   
+    }   
+
+
+    s = prompt("saisire les secondes");
+    n = 0
+while (s > n){
+    s=s-1
+    alert(s)
+}
+
+var sec = 90;
+while(sec >= 0){
+    console.log(sec);
+    sec--;
+}
+
+
+var m = prompt("entrez la valeur")
+while(m < 10000){
+    m= m*10
+    alert("le resulat est : " +m)
+    break
+}*/
+
+var m= prompt("entrez la valeur");
+
+for (var i =0; i < 10000; i*10) {
+ if (m == 10000)
+   break 
+   alert(m)
+ m += i
 }
