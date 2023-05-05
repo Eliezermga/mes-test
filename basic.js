@@ -75,10 +75,42 @@ for (var i =0; i < 10000; i*10) {
    break 
    alert(m)
  m += i
-}*/
+}
 
 var courses = Array("HTML", "CSS", "JS");
 var course = courses[0];
 courses[1] = "C++"
 console.log(courses[1])
 document.write(courses[1])
+
+var courses =  new Array();
+courses [0] = "html"
+courses [1] = "css"
+courses [2] = "js"
+courses [3] = "c++"
+courses [4] = "python"
+courses [5] = "c"
+courses [6] = "java"
+courses [7] = "cobol"
+document.write(courses.length)
+
+// la concatenation de deux tableaux se fait comme  suit
+var c1 = ["HTML", "CSS"];
+var c2 = ["25", "c++"];
+var courses = c1.concat(c2);
+document.write(courses)
+
+var mi = [20,1,3,5];
+var session = [4,5,6,9];
+
+function resulat(mi, session){
+
+    var tabresulta = mi.concat(session);
+    var total = 0;
+    for (var i )
+}*/
+
+var per =  [];
+per["nom"] = "john"
+per["age"] = 45;
+document.write(per["age"])
