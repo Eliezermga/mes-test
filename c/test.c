@@ -1,5 +1,5 @@
 #include <stdio.h>
 int main() {
-  printf("test numero 1");
+  printf("test numer");
   return 0;
 }
