@@ -1,5 +1,8 @@
 #include <stdio.h>
 int main() {
-  printf("test numer");
+  int n;
+  printf("entrez un nombre ");
+  scanf("%d", &n);
+  printf("le nombre est : %d", n);
   return 0;
 }
