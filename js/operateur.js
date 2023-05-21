@@ -22,3 +22,9 @@ score--;
 score--;
 console.log(score);//decrementation
 
+let xp = 5;
+console.log(xp++);//5
+console.log(xp);//6
+
+let xq = 5;
+console.log(++xq);//6
