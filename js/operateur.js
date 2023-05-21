@@ -28,3 +28,15 @@ console.log(xp);//6
 
 let xq = 5;
 console.log(++xq);//6
+
+let xx = 15;
+xx+=5; // x = x+5;
+xx-=5; // x = x-5;
+xx*=5; // x = x*5;
+xx/=5; // x = x/5;
+xx%=5; // x = x%5;
+
+let xm = 8;
+xm++;
+xm/=3;
+console.log(xm);
