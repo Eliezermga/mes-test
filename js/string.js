@@ -7,3 +7,5 @@ console.log('She said "Yes!"');
 console.log("I'm happy"); //error
 console.log('I\'m happy');
 console.log("She said \"Yes!\"");
+
+console.log("One \nTwo \nThree");
