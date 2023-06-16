@@ -16,5 +16,4 @@ def detect(a):
     print(maj)
     print(nouv)
     return nouv
-
 detect(a)
