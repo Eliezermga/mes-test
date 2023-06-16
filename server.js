@@ -14,7 +14,6 @@ const server = http.createServer(function(req, res){
         res.end();
     })
 })
-
 server.listen(port, function(error){
     if (error) {
         console.log('le serveur ne parvient pas à demarer', error);
