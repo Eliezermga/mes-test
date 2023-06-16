@@ -8,6 +8,7 @@
         document.whrite
     }
 
+    
     function charge(){
         alert("mon charegement en text")
     }
