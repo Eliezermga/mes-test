@@ -12,3 +12,9 @@ let text = `Welcome, ${name}`;
 console.log(text);
 
 /* le modèle literreau utilise le symbole appelé back-ticks */
+
+let country = readLine();
+let capital = readLine();
+
+//complete the code
+console.log(`Country:${country} , Capital: ${capital}`);
