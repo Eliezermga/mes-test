@@ -18,3 +18,7 @@ switch(color) {
   default: 
     console.log("Color not found.");
 }
+
+let age = 42;
+let isAdult = (age < 18) ? "Too young": "Old enough";
+console.log(isAdult);
