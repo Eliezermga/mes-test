@@ -22,3 +22,5 @@ switch(color) {
 let age = 42;
 let isAdult = (age < 18) ? "Too young": "Old enough";
 console.log(isAdult);
+
+//la boucle for a 3 composants : l'initialisateur, la condition et l'expression finale
