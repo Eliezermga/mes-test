@@ -15,3 +15,6 @@ Méthode statique    : fonction d'une classe, mais indépendante de celle-ci.
 Héritage            : classe Fille qui hérite d'une classe Mère (Fille est une sorte de Mère)
                     : classe Chat hérite de la classe Animal (Chat est une sorte d'Animal)
 
+pour creer une classe pn utilise le mot clé "class" UnHumain
+
+methode d'instance: fonction sur une instance(objet)
