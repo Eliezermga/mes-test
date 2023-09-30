@@ -12,5 +12,3 @@ cle = input('entrez le mot de passe : ')
 if cle == mot_de_passe :
     print("bienvenue")
 else :
-    
-

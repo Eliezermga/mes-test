@@ -6,8 +6,8 @@ canvas.height = 600;
 document.body.appendChild(canvas);
 
 // Création des variables pour les joueurs et les obstacles
-let player1 = {x: 50, y: 300, width: 20, height: 20, color: 'red', speed: 5};
-let player2 = {x: 50, y: 350, width: 20, height: 20, color: 'blue', speed: 5};
+let player1 = {x: 50, y: 300, width: 30, height: 20, color: 'red', speed: 5};
+let player2 = {x: 50, y: 350, width: 30, height: 20, color: 'blue', speed: 5};
 let obstacles = [];
 let keys = {};
 
@@ -33,10 +33,10 @@ function update() {
     if (keys['ArrowDown']) {
         player1.y += player1.speed;
     }
-    if (keys['w']) {
+    if (keys['ArrowDown']) {
         player2.y -= player2.speed;
     }
-    if (keys['s']) {
+    if (keys['ArrowUp']) {
         player2.y += player2.speed;
     }
     for (let i = 0; i < obstacles.length; i++) {

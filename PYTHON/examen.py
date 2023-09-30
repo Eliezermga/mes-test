@@ -17,4 +17,11 @@ ajouter(liste_3, "David", 1)
 echange (liste_3, 1,3)
 print(liste_3)
 
+a,b,r,q=4,-1,2,6
+a=19
+b=6
+r=+a-r
+print(r)
+a+=1
+r+=a-r
 

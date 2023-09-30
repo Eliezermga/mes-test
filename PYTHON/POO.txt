@@ -18,3 +18,7 @@ Héritage            : classe Fille qui hérite d'une classe Mère (Fille est un
 pour creer une classe pn utilise le mot clé "class" UnHumain
 
 methode d'instance: fonction sur une instance(objet)
+
+"""import player
+#si le module à importer n'est pas dans le même dossier qu'avec le fichier principle chemin.nomfichier et ajouter "as" 
+player.au_revoir()"""
