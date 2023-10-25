@@ -53,3 +53,12 @@ print(resultat)
 
 sinus = sin(45)
 print(sinus)
+
+
+A=12
+b=34
+c=A+b
+if A>b:
+    print("ok")
+else:
+    print(A)
