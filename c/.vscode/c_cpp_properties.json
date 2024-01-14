@@ -4,15 +4,16 @@
             "name": "Win32",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:\\MinGW\\include",
-                "C:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include"
+                "C:\\MinGW64\\include",
+                "C:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\13.2.0\\include"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "intelliSenseMode": "windows-msvc-x64"
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerPath": "C:\\mingw64\\bin\\g++.exe"
         }
     ],
     "version": 4
